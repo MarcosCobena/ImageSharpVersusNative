@@ -26,5 +26,5 @@
   <ItemGroup>
     <EmbeddedResource Include="crate.bmp" />
   </ItemGroup>
-  <Import Project="..\NativeImageLoading\ImageSharpVesusNativeShared.projitems" Label="Shared" Condition="Exists('..\NativeImageLoading\ImageSharpVesusNativeShared.projitems')" />
+  <Import Project="..\NativeImageLoading\ImageSharpVersusNativeShared.projitems" Label="Shared" Condition="Exists('..\NativeImageLoading\ImageSharpVersusNativeShared.projitems')" />
 </Project>
