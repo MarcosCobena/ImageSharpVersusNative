@@ -104,6 +104,10 @@
     <None Include="ImageSharpVersusNativeUWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="..\ImageSharpVersusNative\crate.bmp">
+      <Link>crate.bmp</Link>
+      <LogicalName>ImageSharpVersusNative.crate.bmp</LogicalName>
+    </EmbeddedResource>
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -123,10 +127,17 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.1.5</Version>
     </PackageReference>
+    <PackageReference Include="SixLabors.ImageSharp">
+      <Version>1.0.0-beta0004</Version>
+    </PackageReference>
+    <PackageReference Include="xunit">
+      <Version>2.3.1</Version>
+    </PackageReference>
     <PackageReference Include="xunit.runner.devices">
       <Version>2.3.3</Version>
     </PackageReference>
   </ItemGroup>
+  <Import Project="..\NativeImageLoading\ImageSharpVersusNativeShared.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

@@ -14,6 +14,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSharpVersusNativeUWP",
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NativeImageLoading\ImageSharpVersusNativeShared.projitems*{24179e13-f2b5-487a-af30-70e892a9ea57}*SharedItemsImports = 4
+		NativeImageLoading\ImageSharpVersusNativeShared.projitems*{2e13d310-511d-4c64-9d88-9dfe3a941f2c}*SharedItemsImports = 4
+		NativeImageLoading\ImageSharpVersusNativeShared.projitems*{42303173-e48d-4b91-a9ba-d16f1b59140f}*SharedItemsImports = 4
 		NativeImageLoading\ImageSharpVersusNativeShared.projitems*{57e34ecf-1c25-42ee-a379-94aa88d737a1}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
