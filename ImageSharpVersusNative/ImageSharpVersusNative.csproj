@@ -22,9 +22,11 @@
 
   <ItemGroup>
     <None Remove="crate.bmp" />
+    <None Remove="crate.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="crate.bmp" />
+    <EmbeddedResource Include="crate.png" />
   </ItemGroup>
   <Import Project="..\NativeImageLoading\ImageSharpVersusNativeShared.projitems" Label="Shared" Condition="Exists('..\NativeImageLoading\ImageSharpVersusNativeShared.projitems')" />
 </Project>

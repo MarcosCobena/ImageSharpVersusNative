@@ -37,7 +37,7 @@ namespace ImageSharpVersusNativeShared
         private Stream GetImageStream()
         {
             var assembly = typeof(Tests).GetTypeInfo().Assembly;
-            var stream = assembly.GetManifestResourceStream("ImageSharpVersusNative.crate.bmp");
+            var stream = assembly.GetManifestResourceStream("ImageSharpVersusNative.crate.png");
 
             return stream;
         }
