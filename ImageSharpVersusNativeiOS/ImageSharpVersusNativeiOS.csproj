@@ -170,6 +170,10 @@
       <Link>crate.bmp</Link>
       <LogicalName>ImageSharpVersusNative.crate.bmp</LogicalName>
     </EmbeddedResource>
+    <EmbeddedResource Include="..\ImageSharpVersusNative\crate.png">
+      <Link>crate.png</Link>
+      <LogicalName>ImageSharpVersusNative.crate.png</LogicalName>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />
